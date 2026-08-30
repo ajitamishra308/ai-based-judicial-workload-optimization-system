@@ -48,8 +48,6 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-Backend runs at `http://localhost:8000`. Interactive API docs (auto-generated)
-at `http://localhost:8000/docs`.
 
 First run will download the ML models (~1.6GB for BART summarizer, ~90MB for
 the sentence-transformer) — this only happens once.
@@ -62,7 +60,6 @@ npm install
 npm run dev
 ```
 
-Frontend runs at `http://localhost:5173`.
 
 ### 3. Load data
 
