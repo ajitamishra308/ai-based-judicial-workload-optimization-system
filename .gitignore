@@ -2,6 +2,7 @@ node_modules/
 .venv/
 venv/
 backend/venv/
+backend/venv311/
 frontend/node_modules/
 __pycache__/
 *.pyc
@@ -15,3 +16,5 @@ build/
 .vscode/
 *.log
 *.lnk
+*.db
+data/raw/archive (2)/
